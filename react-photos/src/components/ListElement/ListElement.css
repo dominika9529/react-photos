@@ -6,6 +6,7 @@
     border-radius: 3px;
     background-color: #FFC0CB;
     width: 100%;
+    
 }
 
 .card__image {
@@ -18,7 +19,7 @@
 
 .card__title {
     text-decoration: none;
-    color: black;
+    color:#696969;
 }
 
 
