@@ -33,7 +33,3 @@ function App() {
 }
 
 export default App;
-
-// https://forms.gle/fCiPhESbnGMHWiBa8
-
-// https://prod.liveshare.vsengsaas.visualstudio.com/join?E9B061BE9D0370BF6A39B0832F925F936E64
