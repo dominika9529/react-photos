@@ -1,0 +1,17 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: #FFE4E1;
+    width: 100%;
+}
+
+.card__image {
+    width: 100%;
+}
+
+.card__image img {
+    width: 100%;
+}
