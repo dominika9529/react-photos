@@ -9,12 +9,16 @@ import {
 import Sections from './Sections';
 import Section from './Section';
 import Photo from './Photo';
+import './App.css';
 
 function App() {
   const shouldShowLoader = useSelector(state => state.shouldShowLoader);
   return (
     <>
       {shouldShowLoader && <div>Load ...</div>}
+    <div className="naglowek" >
+    What's new?
+    </div>
       <Router>
         <Switch>
           <Route path="/photo/:id">
