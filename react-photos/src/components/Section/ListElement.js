@@ -10,7 +10,11 @@ export default ({
     description
   }
 }) => (
-  <div className="card">
+  <div
+    className="card"
+    onMouseEnter={() => console.log ('Enter') }
+    onMouseLeave={() => console.log('Leave')}
+  >
     <Link to={`/photo/${id}`}>
       <div className="card__image">
         <img src={thumb} alt="" />
